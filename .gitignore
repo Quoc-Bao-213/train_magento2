@@ -1,0 +1,76 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore compiled files
+/pub/static/
+/pub/media/
+/generated/
+/pub/exports/
+/pub/deployed_version.txt
+/var/view_preprocessed/
+/var/cache/
+/var/page_cache/
+/var/session/
+/var/composer_home/
+/var/log/
+/var/report/
+/var/importexport/
+/var/tmp/
+/var/generation/
+/lib/internal/FireGento/FastSimpleImport/
+/setup-config.php
+/pub/media/captcha/
+/.php_cs.cache
+
+# Ignore deployment configuration files
+/app/etc/config.php
+/app/etc/env.php
+
+# Ignore any local modifications
+/app/etc/env.php
+/app/etc/config.php
+
+# Ignore Magento installation directory
+/app/etc/
+
+# Ignore system and database files
+/.htaccess
+/*.sql
+/.php_cs
+/.project
+/.pydevproject
+/.settings/
+/.vscode/
+/.htpasswd
+/.idea/
+/.deployment
+/.user.ini
+/*.sublime-project
+/*.sublime-workspace
+/.DS_Store
+
+# Ignore custom modules
+/app/code/*
+!app/code/Magento
+!app/code/Magento/*
+/app/design/*
+!app/design/adminhtml
+!app/design/adminhtml/*
+!app/design/frontend
+!app/design/frontend/*
+/app/i18n/*
+!app/i18n/magento
+!app/i18n/magento/*
+/app/code/Magento/*
+!app/code/Magento/ComposerRootInstaller
+!app/code/Magento/ComposerRootInstaller/*
+!app/code/Magento/Backup
+!app/code/Magento/Backup/*
+!app/code/Magento/ModuleDi
+!app/code/Magento/ModuleDi/*
+!app/code/Magento/TestFramework
+!app/code/Magento/TestFramework/*
+
+# Ignore generated code directories
+/generated/
+/var/composer_home/
